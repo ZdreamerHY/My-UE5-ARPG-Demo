@@ -1,0 +1,80 @@
+﻿// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+#include "GameplayTagContainer.h"
+#include "NativeGameplayTags.h"
+
+namespace DemoGameplayTags
+{
+
+	//输入Tag
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Move)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Look)
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Equip_TaiDao)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_UnEquip_TaiDao)
+	
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Attack_Light)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Attack_Heavy)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Roll)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Execute)
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_MustBeHeld)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_MustBeHeld_Block)
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Toggleable)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Toggleable_LockTarget)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_ChangeTarget)
+	
+
+	//角色Tag
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Weapon_TaiDao)
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Equip_TaiDao)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_UnEquip_TaiDao)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Attack_Light)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Attack_Heavy)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Roll)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Block)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_LockTarget)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_ChangeTarget)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Execute)
+	
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_Equip_TaiDao)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_UnEquip_TaiDao)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_SuccessfulBlock)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_ChangeTarget)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_Execute)
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_AttackType_Light)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_AttackType_Heavy)
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Rolling)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Blocking)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_LockTarget)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Invincible)
+	
+	//敌人Tag
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Weapon)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_Melee)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_Ranged)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Status_Strafing)
+	
+	//连招Tag，用来在连招监听点标记
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Combo_Cut)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Combo_Input)
+
+	//共享Tag
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_MeleeHit)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_HitReact)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_ExeEnd)
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Ability_HitReact)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Ability_Death)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Ability_Stun)
+	
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_SetByCaller_BaseDamage)
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Status_Dead)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Status_Stun)
+}

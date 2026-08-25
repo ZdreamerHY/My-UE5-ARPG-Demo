@@ -1,0 +1,16 @@
+﻿// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "Interfaces/UIInterface.h"
+
+
+// Add default functionality here for any IUIInterface functions that are not pure virtual.
+UEnemyUIComponent* IUIInterface::GetEnemyUIComponent() const
+{
+	return nullptr;
+}
+
+UHeroUIComponent* IUIInterface::GetHeroUIComponent() const
+{
+	return nullptr;
+}
