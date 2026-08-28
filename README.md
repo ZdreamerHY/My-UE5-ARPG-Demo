@@ -3,7 +3,7 @@
 > UE 5.6 + GAS 的第三人称动作战斗Demo，覆盖以下功能：连击、受击、弹刀、死亡、索敌锁定、翻滚、行为树敌人 AI、处决。
 
 **演示视频地址**
-
+https://www.bilibili.com/video/BV1TgtP6cEmB?vd_source=0e460cb08b484134f41fa8f2ff0bd585
 
 ---
 
